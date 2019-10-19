@@ -30,5 +30,10 @@ export const DarkRoom: StoryLine = {
       message: "A faint voice responds, but you cannot make out the words...",
       options: []
     }
+     {
+      id: 3,
+      message: "A littel girls laugh comes from the shadows",
+      options: []
+    }
   ]
 };
