@@ -17,6 +17,11 @@ export const DarkRoom: StoryLine = {
           message: "Yell for help.",
           key: "S",
           next: 2
+        },
+        {
+          message: "Sob uncontrollably.",
+          key: "W",
+          next: 3
         }
       ]
     },
@@ -32,8 +37,25 @@ export const DarkRoom: StoryLine = {
     },
     {
       id: 3,
+      message: "You hear the sound of metal slamming against metal, then someone yelling, 'Silence wretch! Or I'll come in there and shut you up!",
+      options: [
+        {
+          message: "Slink back in fear.",
+          key: "A",
+          next: 7
+        },
+        {
+          message: "Step towards the voice.",
+          key: "S",
+          next: 8
+        }
+      ]
+    },
+    {
+      id: 4,
       message: "A little girls laugh comes from the shadows",
-      options: []
+      options: [] 
     }
+
   ]
 };
