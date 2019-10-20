@@ -50,6 +50,11 @@ export const DarkRoom: StoryLine = {
           next: 8
         }
       ]
+    },
+    {
+      id: 4,
+      message: "A little girls laugh comes from the shadows",
+      options: [] 
     }
 
   ]
